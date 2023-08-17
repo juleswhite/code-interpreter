@@ -1,0 +1,271 @@
+Number,Library,Description,Data Types,Potential Uses,File Extensions,Uses,File Formats
+1.0,absl-py,A Python library by Google for maintainable Python code,Python code (text data),"Refactor Python code, add command line interfaces to scripts, test Python code",.py,,
+2.0,affine,For working with 2D affine transformations of the plane,Numerical data,"Transform spatial data, manipulate images or graphics, prepare data for machine learning models",".jpg, .png, .bmp",,
+3.0,aiohttp,Asynchronous HTTP client/server framework,"Network data, Text data (HTTP requests and responses)","Scrape data from websites, create a RESTful API, create a real-time notification system",".json, .xml, .txt",,
+4.0,aiosignal,Helper for aiohttp for sending signals and registering handlers,Network data,"Build real-time applications, manage signals in distributed systems, enhance performance of web applications",No specific file types,,
+5.0,analytics-python,Python client for Segment for user event data,Event data,"Track user behavior in an application, analyze customer data, build marketing funnels",".json, .csv",,
+6.0,anyio,Asynchronous networking and concurrency library,Network data,"Build asynchronous networking applications, enhance performance of IO-bound applications, create real-time applications",".json, .xml, .txt",,
+7.0,anytree,For working with trees of objects,"Structured data, Tree data","Implement decision trees, analyze hierarchical data, implement tree-based algorithms",".json, .xml",,
+8.0,argcomplete,For bash tab completion for argparse,Command-line interface data,"Build a command-line application, enhance user experience of command-line tools, automate tasks",.py,,
+9.0,argon2-cffi-bindings,Bindings for Argon2 password hashing algorithm,"Cryptographic data, Password data","Implement secure password storage, enhance security in web applications, analyze cryptographic security",No specific file types,,
+10.0,argon2-cffi,Python implementation of Argon2 password hashing algorithm,"Cryptographic data, Password data","Implement secure password storage, enhance security in web applications, analyze cryptographic security",No specific file types,,
+11.0,arviz,For exploratory analysis of Bayesian models,"Statistical data, Numerical data","Perform statistical analysis, visualize Bayesian models, interpret machine learning models",".csv, .txt, .xlsx",,
+12.0,asttokens,Marks Python AST trees with token information,Python code (text data),"Analyze Python code, create code linters, build tools for code refactoring",.py,,
+13.0,async-timeout,Timeout context manager for asyncio programs,Network data,"Improve performance of IO-bound applications, build real-time applications, manage network requests",".json, .xml, .txt",,
+14.0,attrs,Provides classes without the boilerplate,Python code (text data),"Simplify Python code, enhance readability of code, build data classes",.py,,
+15.0,audioread,For audio file decoding,Audio data,"Analyze audio data, build a music player, create a speech recognition system",".mp3, .wav, .flac",,
+16.0,babel,For internationalizing Python applications,"Text data, Language data","Internationalize a Python application, analyze language data, build a multi-language application",".po, .mo",,
+17.0,backcall,Provides a way to register and fire backward callbacks,Python code (text data),"Build event-driven applications, enhance performance of applications, create callback systems",.py,,
+18.0,backoff,Provides backoff in Python applications,Network data,"Improve reliability of network applications, build resilient systems, scrape data from unreliable sources",".json, .xml, .txt",,
+19.0,backports.zoneinfo,Backport of the zoneinfo module for IANA time zones,Time data,"Convert time data, build a world clock, analyze time-series data",.tz,,
+20.0,basemap-data,Matplotlib toolkit for plotting 2D data on maps,"Geospatial data, Numerical data","Visualize geospatial data, analyze climate data, build a map-based visualization",".shp, .dbf, .shx",,
+21.0,basemap,Matplotlib toolkit for drawing 2D data on maps,"Geospatial data, Numerical data","Visualize geospatial data, analyze climate data, build a map-based visualization",".shp, .dbf, .shx",,
+22.0,bcrypt,For hashing passwords with bcrypt,"Cryptographic data, Password data","Implement secure password storage, enhance security in web applications, analyze cryptographic security",No specific file types,,
+23.0,beautifulsoup4,For pulling data out of HTML and XML files,Text data (HTML/XML),"Scrape data from websites, analyze HTML/XML data, build a web crawler",".html, .xml",,
+24.0,bleach,For sanitizing and linkifying text from untrusted sources,Text data,"Sanitize user input in a web application, analyze text data, build a comment system",.txt,,
+25.0,blinker,"Provides fast, simple object-to-object and broadcast signaling",Event data,"Build event-driven applications, create a system of signals and slots, analyze event data",No specific file types,,
+26.0,blis,For fast linear algebra and other operations,Numerical data,"Perform linear algebra computations, prepare data for machine learning models, analyze numerical data",".csv, .txt, .xlsx",,
+27.0,bokeh,For creating interactive visualizations for modern web browsers,"Numerical data, Categorical data","Visualize data in interactive plots, analyze numerical data, build a dashboard",".csv, .txt, .xlsx",,
+28.0,branca,For generating interactive leaflet.js maps,Geospatial data,"Visualize geospatial data, analyze location-based data, build an interactive map",".json, .geojson",,
+29.0,brotli,For the Brotli compression algorithm,Binary data,"Compress data, analyze binary data, build a file storage system",.br,,
+30.0,cachetools,A caching and cache-busting library,Any type of cacheable data,"Improve performance of data-intensive applications, analyze cache data, build a caching system",No specific file types,,
+31.0,cairocffi,"A CFFI-based drop-in replacement for Pycairo, a set of Python bindings and object-oriented API for cairo",Vector graphics data,"Create and manipulate vector graphics, create data visualizations",".svg, .png, .pdf",,
+32.0,cairosvg,"Converts SVG files into other formats, such as PDF or PNG",SVG files (text data),"Convert SVG to other formats, such as PNG or PDF",.svg,,
+33.0,camelot-py,Extracts tables from PDFs into pandas DataFrames,PDF files,"Extract tables from PDF files, perform data analysis on extracted data",.pdf,,
+34.0,catalogue,Creates a catalog of Python classes for flexible function calls,Python code (text data),"Create flexible function calls, refactor Python code, build extensible Python applications",.py,,
+35.0,certifi,Provides Mozilla's CA Bundle,Network data (SSL certificates),"Secure network communication, build secure web applications",.pem,,
+36.0,cffi,Calls C code from Python,C code (text data),"Call C code from Python, build Python interfaces to C libraries",".c, .h",,
+37.0,chardet,A universal character encoding detector,Text data,"Detect character encodings, build text processing applications",".txt, .csv, .json",,
+38.0,charset-normalizer,Normalizes text data into a standard character set,Text data,"Normalize text data, perform text data preprocessing",".txt, .csv, .json",,
+39.0,click-plugins,Registers CLI commands via setuptools entry-points,Python code (text data),"Build command-line applications, extend existing click applications",.py,,
+40.0,click,Creates beautiful command-line interfaces in a composable way,Command-line interface data,"Build command-line applications, automate command-line tasks",.py,,
+41.0,cligj,Creates click-based command-line interfaces for GeoJSON processing,GeoJSON data,"Process GeoJSON data, build geospatial applications",.geojson,,
+42.0,cloudpickle,Serializes Python objects for communication or storage,Any Python objects,"Serialize Python objects, build distributed Python applications",.pkl,,
+43.0,cmudict,Retrieves information about the Carnegie Mellon University Pronouncing Dictionary,Language data,"Analyze language data, build speech synthesis applications",.dict,,
+44.0,comm,A communication library used for inter-process communication,Any type of data that can be sent between processes,"Enable inter-process communication, build distributed applications",No specific file types,,
+45.0,compressed-rtf,Handles compressed RTF (Rich Text Format) data,Text data,"Process compressed RTF data, build text processing applications",.rtf,,
+46.0,countryinfo,"Retrieves information about countries, ISO info, and states/provinces within them",Geospatial and text data,"Retrieve country information, build geospatial applications",".json, .csv",,
+47.0,cryptography,Provides cryptographic recipes and primitives,Cryptographic data,"Secure data, build secure applications",".key, .pem, .cert",,
+48.0,cssselect2,Parses CSS3 Selectors and translates them to XPath 1.0,HTML/CSS data (text data),"Parse CSS selectors, build web scraping applications",".css, .html",,
+49.0,cycler,Creates iterator objects for cycling over styles in plots,Graphical data,"Cycle over styles in plots, build data visualizations",".png, .jpg, .svg",,
+50.0,cymem,Manages and recycles memory in Cython,Any type of data that can be stored in memory,"Manage and recycle memory, build high-performance Cython applications",No specific file types,,
+51.0,dbus-python,"Integrates with D-Bus, an inter-process communication system",Any type of data that can be sent between processes,"Enable inter-process communication, build distributed applications",No specific file types,,
+52.0,debugpy,An implementation of the Debug Adapter Protocol for Python,Python code (text data),"Debug Python code, build Python development tools",.py,,
+53.0,decorator,Simplifies the usage of Python decorators,Python code (text data),"Use Python decorators, refactor Python code",.py,,
+54.0,defusedxml,Parses XML data in a way that defends against certain types of attacks,XML data (text data),"Parse XML data, build secure XML processing applications",.xml,,
+55.0,deprecat,Handles deprecation warnings in Python code,Python code (text data),"Handle deprecation warnings, maintain Python code",.py,,
+56.0,dill,Serializes and deserializes Python objects,Any Python objects,"Serialize Python objects, build distributed Python applications",.pkl,,
+57.0,distro-info,Gets information about distributions' OS versions,System data,"Retrieve OS version information, build system administration tools",.txt,,
+58.0,dlib,A toolkit for making real-world machine learning and data analysis applications,Numerical and image data,"Perform machine learning and data analysis, build machine learning applications",".jpg, .png, .bmp",,
+59.0,dnspython,Provides DNS operations in Python,Network data,"Perform DNS operations, build network applications",No specific file types,,
+60.0,docx2txt,Extracts text from docx files,Text data,"Extract text from docx files, build text processing applications",.docx,,
+61.0,ebcdic,"Encodes and decodes EBCDIC, a character encoding used mainly on mainframe computers",EBCDIC data (text data),"Encode and decode EBCDIC data, convert between different character encodings",".txt, .dat",,
+62.0,ebooklib,Manages EPUB2/EPUB3 and Kindle files,EPUB and Kindle files (ebook data),"Manage and manipulate ebooks, build ebook processing applications",".epub, .mobi",,
+63.0,einops,Provides flexible and powerful operations for rearranging and reshaping tensors in deep learning frameworks,Tensors (numerical data),"Manipulate tensors, build deep learning models",No specific file types,,
+64.0,email-validator,Validates email addresses according to the rules in RFC 5322 and RFC 6531,Email addresses (text data),"Validate email addresses, build email processing applications",".txt, .csv, .json",,
+65.0,entrypoints,Discovers and loads entry points from installed packages,Python packages (Python code),"Manage Python entry points, build plugin systems",.py,,
+66.0,et-xmlfile,Creates large XML files,XML files (text data),"Create large XML files, build XML processing applications",.xml,,
+67.0,exceptiongroup,Backports Python 3.11's ExceptionGroup and BaseExceptionGroup classes for grouped exceptions,Python exceptions (Python code),"Handle grouped exceptions, build error handling systems",.py,,
+68.0,exchange-calendars,Provides market-specific trading calendars,Trading calendar data (numerical and date/time data),"Manage trading calendars, build financial applications",".csv, .xlsx",,
+69.0,executing,Determines which python function or module is currently executing,Python code,"Analyze Python code execution, build Python debugging tools",.py,,
+70.0,extract-msg,Extracts emails and appointments from Microsoft Outlook's .msg files,.msg files (email data),"Extract data from .msg files, build email processing applications",.msg,,
+71.0,faker,"Generates fake data such as names, addresses, and text","Any kind of data that can be faked, such as names, addresses, and text","Generate fake data, build data anonymization tools",".txt, .csv, .json",,
+72.0,fastapi,"A modern, fast web framework for building APIs with Python 3.6+",Web API data (text data),"Build web APIs, build web applications",.py,,
+73.0,fastjsonschema,A fast JSON schema compiler for Python,JSON data (text data),"Compile JSON schemas, build JSON processing applications",.json,,
+74.0,fastprogress,A fast and extensible progress bar for Python and Jupyter,Progress data (numerical data),"Manage progress data, build user interfaces",No specific file types,,
+75.0,ffmpeg-python,"A Python wrapper for FFmpeg, a free and open-source software suite for handling multimedia data","Multimedia data, such as audio and video files","Process multimedia data, build multimedia applications",".mp4, .avi, .mkv, .mp3, .flac",,
+76.0,ffmpy,A Pythonic interface for FFmpeg/FFprobe command line arguments,"Multimedia data, such as audio and video files","Process multimedia data, build multimedia applications",".mp4, .avi, .mkv, .mp3, .flac",,
+77.0,filelock,A platform-independent file lock in Python,File data,"Lock files, build file processing applications",Any file type,,
+78.0,fiona,Reads and writes geographic data files,Geographic data files (geospatial data),"Process geographic data, build geospatial applications",".shp, .geojson, .gpx",,
+79.0,flask-cachebuster,Adds a cache-busting capability by appending a timestamp or hash to the URLs of static files,URLs of static files (text data),"Manage cache-busting for static files, build web applications",".css, .js, .png, .jpg, .svg",,
+80.0,flask-cors,Handles Cross Origin Resource Sharing (CORS),Web API data (text data),"Handle CORS for web APIs, build web applications",.py,,
+81.0,flask-login,Provides user session management for Flask,User session data (various types),"Manage user sessions, build web applications",.py,,
+82.0,flask,A lightweight WSGI web application framework,Web application data (text data),"Build web applications, build web APIs",.py,,
+83.0,folium,Visualizes data on an interactive leaflet map,Geographic data (geospatial data),"Visualize geographic data, build geospatial applications",.html,,
+84.0,fonttools,Manipulates font files from Python,Font files,"Manipulate font files, build typography applications",".ttf, .otf, .woff",,
+85.0,fpdf,Creates PDF documents using pure Python,PDF files,"Create PDF files, build document processing applications",.pdf,,
+86.0,frozenlist,A Python list that is immutable,List data (various types),"Manipulate immutable lists, build data processing applications",No specific file types,,
+87.0,future,"Provides functions for adapting Python 2.x idioms to Python 3, and vice versa",Python code,"Adapt Python 2.x idioms to Python 3 and vice versa, build Python applications",.py,,
+88.0,fuzzywuzzy,Fuzzy string matching in Python,Text data,"Perform fuzzy string matching, build text processing applications",".txt, .csv, .json",,
+89.0,gensim,"A Python library for topic modelling, document indexing, and similarity retrieval with large corpora","Text data for topic modelling, document indexing, and similarity retrieval","Perform topic modelling, document indexing, and similarity retrieval, build text processing applications",".txt, .csv, .json",,
+90.0,geographiclib,A library for performing accurate geographic computations,Geographic data (geospatial data),"Perform geographic computations, build geospatial applications",".shp, .geojson, .gpx",,
+91.0,geopandas,A library for handling geospatial data in Python,"Geospatial data (geographic coordinates, map data)","Perform geospatial analysis, create geospatial visualizations, manipulate geospatial data",".shp, .geojson, .gpx",,
+92.0,geopy,A Python client for several popular geocoding web services,"Geographic location data (addresses, city names, landmarks)","Perform geocoding and reverse geocoding, calculate distances between locations",".txt, .csv",,
+93.0,gradio,A library for quickly creating customizable UI components around your machine learning model,Machine learning models and associated data,"Create UI components for machine learning models, visualize model predictions",No specific file types,,
+94.0,graphviz,A library for creating graphs using the Graphviz graph drawing software,"Graph data (nodes, edges)",Create and manipulate graph visualizations,".dot, .gv",,
+95.0,gtts,A library for converting text into speech using Google's text-to-speech engine,Text data,"Convert text into speech, create speech files",".mp3, .wav",,
+96.0,h11,"A pure-Python, bring-your-own-I/O implementation of HTTP/1.1","HTTP/1.1 protocol data (HTTP requests, responses)","Create and parse HTTP/1.1 protocol data, build HTTP clients and servers",No specific file types,,
+97.0,h2,A HTTP/2 protocol stack for Python,"HTTP/2 protocol data (HTTP requests, responses)","Create and parse HTTP/2 protocol data, build HTTP clients and servers",No specific file types,,
+98.0,h5netcdf,A Python interface to the netCDF4 library,NetCDF4 files (scientific data),"Create and manipulate netCDF4 files, perform scientific data analysis",.nc,,
+99.0,h5py,A Pythonic interface to the HDF5 binary data format,HDF5 files (hierarchical data),"Create and manipulate HDF5 files, perform hierarchical data analysis",".h5, .hdf5",,
+100.0,hpack,A pure-Python HTTP/2 header encoding (HPACK) logic implementation,HTTP/2 protocol data (HTTP headers),"Encode and decode HTTP/2 headers, build HTTP/2 clients and servers",No specific file types,,
+101.0,html5lib,A pure-Python library for parsing HTML documents,HTML documents,"Parse HTML documents, extract information from HTML",".html, .htm",,
+102.0,httpcore,"A minimal HTTP client, which supports HTTP/1.1 and HTTP/2","HTTP protocol data (HTTP requests, responses)","Create and parse HTTP requests and responses, build HTTP clients and servers",No specific file types,,
+103.0,httptools,"A collection of framework-independent, high-performance HTTP parsing utilities for Python","HTTP protocol data (HTTP requests, responses)","Parse HTTP protocol data, build HTTP clients and servers",No specific file types,,
+104.0,httpx,"A fully featured HTTP client for Python 3, which provides sync and async APIs","HTTP protocol data (HTTP requests, responses)","Send HTTP requests, parse HTTP responses, build HTTP clients",No specific file types,,
+105.0,hypercorn,"An ASGI web server for Python that supports HTTP/1, HTTP/2, WebSockets","ASGI applications (web applications, HTTP requests, responses, WebSocket data)","Serve ASGI applications, handle HTTP and WebSocket connections",No specific file types,,
+106.0,hyperframe,A Python library for HTTP/2 framing,HTTP/2 protocol data (HTTP frames),"Encode and decode HTTP/2 frames, build HTTP/2 clients and servers",No specific file types,,
+107.0,idna,A library to support the Internationalised Domain Names in Applications (IDNA) protocol,Domain names,Encode and decode internationalized domain names,No specific file types,,
+108.0,imageio-ffmpeg,A wrapper around FFmpeg for reading and writing videos in Python using Imageio,Video files (multimedia data),"Convert videos to different formats, extract frames from videos",".mp4, .avi, .mkv, .mp3, .flac",,
+109.0,imageio,A Python library that provides an easy interface to read and write a wide range of image data,"Image files, video files, volumetric data (multimedia data)","Read and write image files, perform image processing",".jpg, .png, .gif, .bmp, .tiff, .mp4, .avi, .mkv",,
+110.0,imapclient,"An easy-to-use, Pythonic, and complete IMAP client library",Email data (IMAP protocol data),"Connect to IMAP servers, manage email data",".eml, .msg",,
+111.0,imgkit,"A Python wrapper to convert HTML to images (JPEG, PNG) using the WebKit rendering engine and QT",HTML documents,"Convert HTML to images, create screenshots of webpages",".jpg, .png",,
+112.0,importlib-metadata,A library to access the metadata for a Python package,Python package metadata,Access metadata for Python packages,No specific file types,,
+113.0,importlib-resources,A library for reading files within packages,Files within Python packages,Read files within Python packages,Any file type,,
+114.0,iniconfig,A brain-dead simple parser for ini-style files,INI-style files (configuration data),"Parse INI-style files, manage configuration data",.ini,,
+115.0,ipykernel,The IPython kernel for Jupyter,"Jupyter notebooks, Python code",Execute Python code in Jupyter notebooks,.ipynb,,
+116.0,ipython-genutils,A set of utility functions used by IPython and Jupyter,"Python code, Jupyter notebook data",Perform various utility functions for IPython and Jupyter,.ipynb,,
+117.0,ipython,An interactive command-line terminal for Python,Python code,Execute Python code interactively,.py,,
+118.0,isodate,An ISO 8601 date/time/duration parser and formatter,Date/time/duration data,Parse and format ISO 8601 date/time/duration data,".txt, .csv",,
+119.0,itsdangerous,"A library for handling JSON Web Signatures (JWS), JSON Web Tokens (JWT), and other secure serialization needs","JSON Web Signatures (JWS), JSON Web Tokens (JWT)",Encode and decode JSON Web Signatures and JSON Web Tokens,".jws, .jwt",,
+120.0,jax,A library for composable transformations of Python+NumPy programs,"Python+NumPy programs (numerical data, Python code)","Perform transformations of Python+NumPy programs, build machine learning models",.py,,
+121.0,jedi,A static analysis tool for Python that is typically used in IDEs/editors plugins,Python code,"Static analysis of Python code, autocomplete suggestions, function signature help, finding definitions and references of Python objects",,,
+122.0,jinja2,A modern and designer-friendly templating language for Python,"Text data (typically used for creating HTML, XML, or other markup formats)","Rendering of text templates, especially HTML/XML templates",,,
+123.0,joblib,A set of tools to provide lightweight pipelining in Python,Any data types (used for creating pipelines),"Creating pipelines for machine learning or data processing, caching function results, parallel processing",,,
+124.0,json5,A Python implementation of the JSON5 data interchange format,JSON data,"Parsing and generating JSON5 data, handling comments and additional JavaScript-style syntax",,,
+125.0,jsonpickle,A library for serializing complex Python objects to and from JSON,Complex Python objects,Serializing and deserializing complex Python objects to and from JSON,,,
+126.0,jsonschema-specifications,A set of specifications for the jsonschema Python library,JSON Schema definitions,Validating JSON data against JSON Schema definitions,,,
+127.0,jsonschema,An implementation of JSON Schema for Python,JSON data,Validating JSON data against JSON Schema,,,
+128.0,jupyter-client,Jupyter protocol implementation and client libraries,"Jupyter notebooks, Python code","Communicating with Jupyter kernels, executing Jupyter notebooks",,,
+129.0,jupyter-core,Core common functionality of Jupyter projects,"Jupyter notebooks, Python code",Providing common infrastructure for Jupyter projects,,,
+130.0,jupyter-server,A server extension for Jupyter notebooks,"Jupyter notebooks, Python code","Serving Jupyter notebooks, managing Jupyter server extensions",,,
+131.0,jupyterlab-pygments,A Pygments theme for JupyterLab,"Python code, text data",Syntax highlighting for JupyterLab using Pygments,,,
+132.0,jupyterlab-server,A set of server components for JupyterLab and JupyterLab like applications,"Jupyter notebooks, Python code",Providing server components for JupyterLab and similar applications,,,
+133.0,jupyterlab,"A web-based interactive development environment for Jupyter notebooks, code, and data","Jupyter notebooks, Python code","Interactive development environment for Jupyter notebooks, code, and data",,,
+134.0,keras,"A high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano",Numerical data (for machine learning),"Creating and training machine learning models, especially deep learning models",,,
+135.0,kerykeion,"A library for handling astrological calculations, including zodiacal positions of planets, houses, and aspects",Astrological data,"Astrological calculations, including zodiacal positions of planets, houses, and aspects",,,
+136.0,kiwisolver,"A fast implementation of the Cassowary constraint solver, which is used for constraint-based layout",Numerical data (used for constraint-based layout),"Constraint-based layout, solving systems of linear equations",,,
+137.0,korean-lunar-calendar,A converter between Korean lunar calendar and Gregorian calendar,Date/time data,Converting between Korean lunar calendar and Gregorian calendar,,,
+138.0,librosa,A python package for music and audio analysis,Audio data,"Music and audio analysis, including beat tracking, music segmentation, and feature extraction",,,
+139.0,llvmlite,A lightweight LLVM python binding for writing JIT compilers,LLVM IR code,"Writing JIT compilers, compiling LLVM IR code to machine code",,,
+140.0,loguru,A library which aims to bring enjoyable logging in Python,Text data (log messages),"Logging, including handling log messages and providing log levels",,,
+141.0,lxml,A library for processing XML and HTML,XML/HTML data,"Parsing and generating XML/HTML data, querying XML/HTML data with XPath",,,
+142.0,markdown2,A fast and complete Python implementation of Markdown,Markdown text,Converting Markdown text to HTML,,,
+143.0,markdownify,A library to convert HTML to Markdown text in Python,HTML data,Converting HTML to Markdown text,,,
+144.0,markupsafe,A library for implementing a XML/HTML/XHTML Markup safe string for Python,XML/HTML/XHTML data,Escaping and unescaping XML/HTML/XHTML data,,,
+145.0,matplotlib-inline,An IPython magic extension for inline matplotlib plotting,Numerical data (for plotting),Inline plotting in Jupyter notebooks using matplotlib,,,
+146.0,matplotlib-venn,A library for plotting simple Venn diagrams using matplotlib,Numerical data (for creating Venn diagrams),Creating Venn diagrams using matplotlib,,,
+147.0,matplotlib,A plotting library for Python and its numerical mathematics extension NumPy,Numerical data (for plotting),"Creating static, animated, and interactive visualizations in Python",,,
+148.0,mistune,The fastest markdown parser in pure Python with renderer features,Markdown text,Parsing and rendering Markdown text,,,
+149.0,mizani,"A port of ggplot2's scales to Python, for use with the grammar of graphics implementation in plotnine",Numerical data (for plotting),"Creating scales for plotnine, which can be used for creating various kinds of visualizations",,,
+150.0,mne,"A software for processing, analyzing, and visualizing MEG, EEG, sEEG, ECoG, and fNIRS data","MEG, EEG, sEEG, ECoG, and fNIRS data","Processing, analyzing, and visualizing MEG, EEG, sEEG, ECoG, and fNIRS data",,,
+,monotonic==1.6,,Time data,Provides a reliable timestamp for events or logs in long-running processes,,,
+,moviepy==1.0.3,,Video and audio data,"Edit videos programmatically, create animations, or develop machine learning models for video processing",,,
+,mpmath==1.3.0,,Numerical data,"Enables high-precision calculations and mathematical research, or the development of algorithms that require high-precision arithmetic",,,
+,mtcnn==0.1.1,,Image data,"Build face detection applications, such as automatic tagging of people in images",,,
+,multidict==6.0.4,,Any data type that can be used as a dictionary key in Python,"Store multiple values for each key, which can be useful in applications like HTTP headers or in data preprocessing where one key can have multiple associated values",,,
+,munch==4.0.0,,Data that can be converted to bytes,"Create probabilistic data structures like Bloom filters or Count-Min sketches, which are used to test whether an element is a member of a set",,,
+,murmurhash==1.0.9,,Python code,"Used in software development processes to catch type errors before runtime, improving code reliability",,,
+,mutagen==1.45.1,,Python code,"Further customize the functionality of mypy, enhancing its type checking capabilities",,,
+,nashpy==0.0.35,,List-like data structures containing any data type that can be compared in Python,Used for natural order sorting in applications where the standard sorting algorithms provided by Python are not sufficient,,,
+,nbclassic==1.0.0,,Jupyter Notebook files,"Convert Jupyter Notebooks to various other formats, which is useful for sharing code and results in a more accessible format",,,
+,nbclient==0.8.0,,Jupyter Notebook files,"Create, read, and write Jupyter Notebooks programmatically, which is useful for automated report generation or testing",,,
+,nbconvert==7.7.1,,Python asyncio tasks,"Write asynchronous code with nested event loops, which is useful for developing complex concurrent applications",,,
+,nbformat==5.9.1,,Scientific data in netCDF format,"Read and write netCDF files, enabling the processing and analysis of scientific data",,,
+,nest-asyncio==1.5.6,,Graph-like data structures (nodes and edges),"Create, manipulate, and study the structure and functions of complex networks, which is useful in fields like social network analysis or routing algorithms",,,
+,networkx==2.6.3,,Neuroimaging data in various formats,"Read and write neuroimaging data, enabling the analysis and visualization of brain images",,,
+,nltk==3.6.3,,Human language data,"Used for a wide range of natural language processing tasks, including text classification, tokenization, stemming, tagging, parsing, and semantic reasoning",,,
+,notebook-shim==0.2.3,,Python unittest test cases,"Provides a number of helpful features for writing and running tests, such as test generators and output capture",,,
+,notebook==6.5.1,,Jupyter Notebook files,"Create and share documents that contain live code, equations, visualizations, and narrative text",,,
+,numba==0.57.1,,"Python code that uses NumPy arrays and functions, as well as loops","Significantly speed up Python code, particularly numerical computations, by just-in-time compilation",,,
+,numexpr==2.8.4,,"Large numerical expressions, especially those including large arrays",Evaluate complex expressions involving large arrays quickly and efficiently,,,
+,numpy-financial==1.0.0,,Numerical data in the form of N-dimensional array objects,"Used for a wide range of numerical computations, including linear algebra, Fourier transform, and random number capabilities",,,
+,numpy==1.21.2,,OAuth request-signing logic,"Implement OAuth in Python applications, ensuring secure access to resources",,,
+,odfpy==1.4.1,,"Microsoft OLE2 files (Structured Storage or Compound Document, Microsoft Office)","Parse, read, and write Microsoft OLE2 files, such as Microsoft Office files",,,
+,olefile==0.46,,Image and video data,"Used for a wide range of computer vision tasks, including image and video processing, face detection, and object detection",,,
+,opencv-python==4.5.2.54,,Image and video data in environments without a display,"Provides the same functionality as opencv-python, but without any GUI features, making it suitable for use in headless environments",,,
+,openpyxl==3.0.10,,Excel 2010 xlsx/xlsm/xltx/xltm files,"Read and write Excel 2010 files, enabling data analysis and manipulation directly in Python",,,
+,opt-einsum==3.3.0,,Python packages,Handle version and specification management for Python packages,,,
+,orjson==3.9.2,,"Structured data (e.g., CSV, Excel files) and time series data",Provides data structures and data analysis tools that make working with structured data easy and intuitive,,,
+,packaging==23.1,,Google BigQuery data,Read and write data to Google BigQuery from pandas DataFrames,,,
+,pandas==1.3.2,,JSON serialization of the Pandoc AST,Create custom transformations of the content in Pandoc files,,,
+,pandocfilters==1.5.0,,Textual data,,,Parse and filter text data,Text files
+,paramiko==3.2.0,,Network data,,,"Perform SSH operations, handle remote servers",No specific file format
+,parso==0.8.3,,Textual data,,,"Parse Python code, modify and analyze syntax trees",Python files
+,pathy==0.10.2,,File and directory paths,,,Handle file and directory paths in a smart and convenient way,Any file type
+,patsy==0.5.3,,Numerical and categorical data,,,Describe statistical models and build design matrices,No specific file format
+,pdf2image==1.16.3,,"PDF files, image data",,,Convert PDF files to images,"PDF, PNG, JPEG"
+,pdfkit==0.6.1,,"HTML, CSS, JavaScript, and other web-based data",,,Convert HTML to PDF,"HTML, CSS, JavaScript, PDF"
+,pdfminer.six==20200517,,PDF files,,,"Extract text, images, and metadata from PDF files",PDF
+,pdfplumber==0.5.28,,PDF files,,,"Extract text, tables, and metadata from PDF files",PDF
+,pdfrw==0.4,,PDF files,,,Read and write PDF files,PDF
+,pexpect==4.8.0,,Shell command outputs,,,Automate interactive applications,No specific file format
+,pickleshare==0.7.5,,Python objects,,,Small 'shelve'-like database with additional features,Pickle files
+,pillow==8.3.2,,Image data,,,"Handle operations like displaying, saving, combining, and modifying images","PNG, JPEG, TIFF, BMP, GIF, and more"
+,pip==20.0.2,,Python packages metadata,,,Install and manage Python packages,No specific file format
+,pkgutil-resolve-name==1.3.10,,Python packages metadata,,,Resolve package names and versions,No specific file format
+,platformdirs==3.9.1,,File and directory paths,,,Provide directory paths on multiple platforms,Any file type
+,plotly==5.3.0,,Numerical and categorical data,,,Create interactive plots and dashboards,"HTML, JSON"
+,plotnine==0.10.1,,Numerical and categorical data,,,Create complex plots using a grammar of graphics,"PNG, JPEG, SVG, PDF"
+,pluggy==1.2.0,,Python objects,,,Build plugin systems,No specific file format
+,pooch==1.7.0,,"File paths, URLs",,,Manage and download sample data files,Any file type
+,preshed==3.0.8,,Textual data,,,Efficiently hash objects,No specific file format
+,priority==2.0.0,,Numerical data,,,Manage priorities in your Python programs,No specific file format
+,proglog==0.1.10,,Log data,,,Handle logs in your programs,Log files
+,prometheus-client==0.17.1,,Metrics data,,,Export metrics from your applications to a Prometheus server,No specific file format
+,prompt-toolkit==3.0.39,,User input data,,,Build powerful interactive command-line and terminal applications,No specific file format
+,pronouncing==0.2.0,,Textual data,,,Work with pronouncing dictionaries,Text files
+,psutil==5.9.5,,System information,,,Retrieve information on running processes and system utilization,No specific file format
+,ptyprocess==0.7.0,,Shell command outputs,,,Run a subprocess in a pseudo terminal,No specific file format
+,pure-eval==0.2.2,,Python objects,,,Safely evaluate Python expressions,Python files
+,py==1.11.0,,Python objects,,,Provide advanced functionalities to Python developers,Python files
+,pyaudio==0.2.11,,Audio data,,,"Record, play, and convert audio data",".wav, .flac, .ogg"
+,pycountry==20.7.3,,Country names and codes,,,Translate country names and codes,Not applicable
+,pycparser==2.21,,C code,,,Parse C code and manipulate C syntax trees,".c, .h"
+,pycryptodome==3.18.0,,Encrypted data,,,Encrypt and decrypt data,Any
+,pydantic==1.8.2,,Python data classes,,,Validate data and generate data classes,Not applicable
+,pydot==1.4.2,,Graphs,,,Generate and manipulate graph visualizations,".dot, .png, .jpeg, .svg, .pdf"
+,pydub==0.25.1,,Audio data,,,Manipulate and convert audio data,".wav, .mp3, .flac, .ogg"
+,pydyf==0.7.0,,PDF files,,,Generate PDF files,.pdf
+,pygments==2.15.1,,Source code,,,Highlight source code for various languages,Any
+,pygobject==3.36.0,,GTK objects,,,Create GTK applications,Not applicable
+,pygraphviz==1.7,,Graphs,,,Generate and manipulate graph visualizations,".dot, .png, .jpeg, .svg, .pdf"
+,pylog==1.1,,Log data,,,Log data,.log
+,pyluach==2.2.0,,Dates in the Hebrew calendar,,,Convert dates between the Gregorian and Hebrew calendars,Not applicable
+,pymc3==3.11.5,,Statistical models,,,Perform Bayesian modeling and probabilistic machine learning,Not applicable
+,pymupdf==1.19.6,,PDF files,,,"Read, write, and manipulate PDF files",.pdf
+,pynacl==1.5.0,,Encrypted data,,,Encrypt and decrypt data,Any
+,pypandoc==1.6.3,,Markdown and other document formats,,,Convert documents between different formats,".md, .rst, .html, .latex, .pdf"
+,pyparsing==3.1.0,,Textual data,,,Build parsers and interpreters,Not applicable
+,pypdf2==1.28.6,,PDF files,,,"Read, write, and manipulate PDF files",.pdf
+,pyphen==0.14.0,,Textual data,,,Hyphenate words,Not applicable
+,pyproj==3.5.0,,Geospatial data,,,Convert geospatial coordinates,".shp, .kml, .geojson"
+,pyprover==0.5.6,,Mathematical proofs,,,Construct and verify mathematical proofs,Not applicable
+,pyshp==2.1.3,,Geospatial data,,,"Read, write, and manipulate shapefiles",".shp, .shx, .dbf"
+,pyswisseph==2.10.3.2,,Astronomical data,,,Calculate the positions of celestial bodies,Not applicable
+,pytesseract==0.3.8,,Image data,,,Recognize text in images,".png, .jpeg, .tiff, .bmp, .gif, and more"
+,pytest==6.2.5,,Test cases,,,Write and run tests,.py
+,pyth3==0.7,,Python 3 code,,,Convert Python 2 code to Python 3,.py
+,python-apt==2.0.1+ubuntu0.20.4.1,,Package metadata,,,Manage Debian packages,.deb
+,python-dateutil==2.8.2,,Dates and times,,,Parse and manipulate dates and times,Not applicable
+,python-docx==0.8.11,,Word documents,,,"Read, write, and manipulate Word documents",.docx
+,python-dotenv==1.0.0,,Environment variables,,,Load environment variables from a .env file,.env
+,python-multipart==0.0.6,,HTTP multipart/form-data requests,,,Parse HTTP multipart/form-data requests,Not applicable
+,python-pptx==0.6.21,,PowerPoint presentations,,,"Read, write, and manipulate PowerPoint presentations",.pptx
+,pyttsx3==2.90,,Textual data,,,Convert text to speech,Not applicable
+,pytz==2023.3,,Dates and times,,,Convert between time zones,Not applicable
+,pywavelets==1.4.1,,Numerical data,,,Perform wavelet transforms,Not applicable
+,pyxlsb==1.0.8,,Excel files,,,Read Excel files in the .xlsb format,.xlsb
+,pyyaml==6.0.1,,YAML files,,,Parse YAML files,".yaml, .yml"
+,pyzbar==0.1.8,,Barcode data,,,Decode barcodes and QR codes,".png, .jpeg, and more"
+,pyzmq==25.1.0,,Network data,,,Send and receive data over ZeroMQ sockets,Not applicable
+,qrcode==7.3,,QR codes,,,Generate QR codes,.png
+,rarfile==4.0,,.rar files,,,Extract files from .rar archives,.rar
+,rasterio==1.2.10,,Geospatial data,,,"Read, write, and manipulate geospatial data",".tif, .jpg, .png, .hdf, .netcdf, and more"
+,rdflib==6.0.0,,RDF data,,,"Parse, serialize, and manipulate RDF data",".rdf, .xml, .n3, .nt, .trix, .trig, .nquads"
+,referencing==0.30.0,,Bibliographic references,,,Format bibliographic references,Not applicable
+,regex==2023.6.3,,Textual data,,,Match and manipulate text using regular expressions,Not applicable
+,reportlab==3.6.1,,PDF files,,,Generate PDF files,.pdf
+,requests-unixsocket==0.2.0,,HTTP data,,,Send HTTP requests over Unix domain sockets,Not applicable
+,requests==2.31.0,,HTTP data,,,Send HTTP requests,Not applicable
+,resampy==0.4.2,,Audio data,,,Resample audio data,".wav, .flac, .mp3, and more"
+,rpds-py==0.9.2,,Numerical data,,,Build and manipulate persistent data structures,Not applicable
+,scikit-image==0.18.3,,Image data,,,Process and analyze image data,".png, .jpeg, .tiff, and more"
+,scikit-learn==1.0,,Numerical data,,,Perform machine learning tasks,Not applicable
+,scipy==1.7.3,,Numerical data,,,Perform scientific computing tasks,.mat
+,seaborn==0.11.2,,Numerical data,,,Generate statistical data visualizations,".png, .jpeg, .tiff, .pdf, and more"
+,semver==3.0.1,,Version numbers,,,Compare semantic version numbers,Not applicable
+,send2trash==1.8.2,,File and directory paths,,,Send files to the Trash or Recycle Bin,Any
+,sentencepiece==0.1.99,,Textual data,,,Tokenize text,.spm
+,setuptools==45.2.0,,Python packages,,,Build and distribute Python packages,Not applicable
+,shap==0.39.0,,Numerical data,,,Explain the output of machine learning models,Not applicable
